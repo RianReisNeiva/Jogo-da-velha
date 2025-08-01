@@ -30,7 +30,7 @@ function verificar() {
         let valC = casas[c].textContent;
 
         if (valA !== "" && valA === valB && valB === valC) {
-            document.getElementById("status").textContent = `Jogador ${valA} venceu!`;
+            document.getElementById("status").textContent = `Jogador (${valA}) venceu!`;
             if (jogada == 'x') {
                 x++;
                 document.getElementById('vitoriasx').textContent = `vitórias: ${x}`
